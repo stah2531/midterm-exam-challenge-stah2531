@@ -1,0 +1,220 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-044d6cadd7c0c1f63", 
+                    "RouteTableAssociationId": "rtbassoc-070a426f1922d4379", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-01e50b0a880a3737f"
+                }
+            ], 
+            "RouteTableId": "rtb-01e50b0a880a3737f", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "dynacorp-private3-rt", 
+                    "Key": "Name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.0.0.0/18", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "Origin": "CreateRoute", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "NatGatewayId": "nat-0e6deec03ba3e0e53", 
+                    "State": "active"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-0482d0cb557542387", 
+                    "RouteTableAssociationId": "rtbassoc-0e233f41192b17c57", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-0a12e1a7e3e1ec51d"
+                }
+            ], 
+            "RouteTableId": "rtb-0a12e1a7e3e1ec51d", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "dynacorp-private1-rt", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "Private1RouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.0.0.0/18", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-083522ad0794bd2b1", 
+                    "RouteTableAssociationId": "rtbassoc-0289651dae479f4ae", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-0616af9d283bb57f1"
+                }
+            ], 
+            "RouteTableId": "rtb-0616af9d283bb57f1", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "dynacorp-private2-rt", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "Private2RouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.0.0.0/18", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-00efbac2d9191a955", 
+                    "RouteTableAssociationId": "rtbassoc-0b36faa2a6c68441e", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-0ec87d3d7de819ceb"
+                }, 
+                {
+                    "SubnetId": "subnet-0956316e1c554bfdc", 
+                    "RouteTableAssociationId": "rtbassoc-0ebd2d5bb11821ecc", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-0ec87d3d7de819ceb"
+                }, 
+                {
+                    "SubnetId": "subnet-061438832ff8b1bbc", 
+                    "RouteTableAssociationId": "rtbassoc-0a5cd5eec77c94998", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-0ec87d3d7de819ceb"
+                }
+            ], 
+            "RouteTableId": "rtb-0ec87d3d7de819ceb", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "PublicRouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "dynacorp-public-rt", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.0.0.0/18", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-01b5c48cd9f0dbd48", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "RouteTableAssociationId": "rtbassoc-0adda94b55ba64ed9", 
+                    "Main": true, 
+                    "RouteTableId": "rtb-0288786300f7d20b0"
+                }
+            ], 
+            "RouteTableId": "rtb-0288786300f7d20b0", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "PropagatingVgws": [], 
+            "Tags": [], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.0.0.0/18", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "RouteTableAssociationId": "rtbassoc-ba1c24d1", 
+                    "Main": true, 
+                    "RouteTableId": "rtb-87af6bec"
+                }
+            ], 
+            "RouteTableId": "rtb-87af6bec", 
+            "VpcId": "vpc-7fcdf117", 
+            "PropagatingVgws": [], 
+            "Tags": [], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.31.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-5e9e4736", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }
+    ]
+}

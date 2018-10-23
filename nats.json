@@ -1,0 +1,51 @@
+{
+    "NatGateways": [
+        {
+            "NatGatewayAddresses": [
+                {
+                    "PublicIp": "13.59.193.185", 
+                    "NetworkInterfaceId": "eni-0c2f83ffd09f2c3a3", 
+                    "AllocationId": "eipalloc-01dfa476a958d082f", 
+                    "PrivateIp": "10.0.4.110"
+                }
+            ], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "NatGatewayId": "nat-0e6deec03ba3e0e53", 
+            "SubnetId": "subnet-061438832ff8b1bbc", 
+            "CreateTime": "2018-10-23T00:17:21.000Z"
+        }, 
+        {
+            "NatGatewayAddresses": [
+                {
+                    "PublicIp": "18.224.162.153", 
+                    "NetworkInterfaceId": "eni-0e828826930db8a7b", 
+                    "AllocationId": "eipalloc-08dd0a51ee8b89660", 
+                    "PrivateIp": "10.0.3.15"
+                }
+            ], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "deleted", 
+            "NatGatewayId": "nat-04c93b4917d310cb1", 
+            "SubnetId": "subnet-00efbac2d9191a955", 
+            "DeleteTime": "2018-10-23T01:16:28.000Z", 
+            "CreateTime": "2018-10-22T23:27:56.000Z"
+        }, 
+        {
+            "NatGatewayAddresses": [
+                {
+                    "PublicIp": "3.16.16.62", 
+                    "NetworkInterfaceId": "eni-07e5a69922e21e15d", 
+                    "AllocationId": "eipalloc-03dc6d51284e641e2", 
+                    "PrivateIp": "10.0.1.170"
+                }
+            ], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "deleted", 
+            "NatGatewayId": "nat-0d53735f90af4d802", 
+            "SubnetId": "subnet-0956316e1c554bfdc", 
+            "DeleteTime": "2018-10-23T01:16:23.000Z", 
+            "CreateTime": "2018-10-22T23:27:38.000Z"
+        }
+    ]
+}

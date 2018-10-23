@@ -1,0 +1,16 @@
+{
+    "Listeners": [
+        {
+            "Protocol": "HTTP", 
+            "DefaultActions": [
+                {
+                    "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:463886098039:targetgroup/dynac-DynaT-C44OAC3SNJWK/69b762669ca49a5f", 
+                    "Type": "forward"
+                }
+            ], 
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:463886098039:loadbalancer/app/dynac-DynaE-PGSZZ3UB02IH/81e5822185a9fa8b", 
+            "Port": 80, 
+            "ListenerArn": "arn:aws:elasticloadbalancing:us-east-2:463886098039:listener/app/dynac-DynaE-PGSZZ3UB02IH/81e5822185a9fa8b/fb9e61b0e422dfab"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "TargetGroups": [
+        {
+            "HealthCheckPath": "/health", 
+            "HealthCheckIntervalSeconds": 30, 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "Protocol": "HTTP", 
+            "HealthCheckTimeoutSeconds": 10, 
+            "HealthCheckProtocol": "HTTP", 
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-2:463886098039:loadbalancer/app/dynac-DynaE-PGSZZ3UB02IH/81e5822185a9fa8b"
+            ], 
+            "UnhealthyThresholdCount": 2, 
+            "HealthyThresholdCount": 2, 
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:463886098039:targetgroup/dynac-DynaT-C44OAC3SNJWK/69b762669ca49a5f", 
+            "Matcher": {
+                "HttpCode": "200"
+            }, 
+            "HealthCheckPort": "traffic-port", 
+            "Port": 80, 
+            "TargetGroupName": "dynac-DynaT-C44OAC3SNJWK"
+        }
+    ]
+}

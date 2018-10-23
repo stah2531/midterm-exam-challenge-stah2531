@@ -1,0 +1,196 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZone": "us-east-2c", 
+            "Tags": [
+                {
+                    "Value": "PrivateSubnet3", 
+                    "Key": "Name"
+                }
+            ], 
+            "AvailableIpAddressCount": 506, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": false, 
+            "SubnetId": "subnet-044d6cadd7c0c1f63", 
+            "CidrBlock": "10.0.14.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2a", 
+            "Tags": [
+                {
+                    "Value": "Dynacorp-PrivateSubnet1", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "privateSubnet1", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }
+            ], 
+            "AvailableIpAddressCount": 506, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": false, 
+            "SubnetId": "subnet-0482d0cb557542387", 
+            "CidrBlock": "10.0.10.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2a", 
+            "Tags": [
+                {
+                    "Value": "publicSubnet1", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "Dynacorp-PublicSubnet1", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }
+            ], 
+            "AvailableIpAddressCount": 505, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-0956316e1c554bfdc", 
+            "CidrBlock": "10.0.0.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2c", 
+            "Tags": [
+                {
+                    "Value": "PublicSubnet3", 
+                    "Key": "Name"
+                }
+            ], 
+            "AvailableIpAddressCount": 504, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-061438832ff8b1bbc", 
+            "CidrBlock": "10.0.4.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2b", 
+            "Tags": [
+                {
+                    "Value": "Dynacorp-PrivateSubnet2", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "privateSubnet2", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }
+            ], 
+            "AvailableIpAddressCount": 507, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": false, 
+            "SubnetId": "subnet-083522ad0794bd2b1", 
+            "CidrBlock": "10.0.12.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2a", 
+            "AvailableIpAddressCount": 4091, 
+            "DefaultForAz": true, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-7fcdf117", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-068baf6e", 
+            "CidrBlock": "172.31.0.0/20", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2b", 
+            "AvailableIpAddressCount": 4091, 
+            "DefaultForAz": true, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-7fcdf117", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-e0cc519a", 
+            "CidrBlock": "172.31.16.0/20", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2b", 
+            "Tags": [
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "publicSubnet2", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "Dynacorp-PublicSubnet2", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }
+            ], 
+            "AvailableIpAddressCount": 505, 
+            "DefaultForAz": false, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-00efbac2d9191a955", 
+            "CidrBlock": "10.0.2.0/23", 
+            "AssignIpv6AddressOnCreation": false
+        }, 
+        {
+            "AvailabilityZone": "us-east-2c", 
+            "AvailableIpAddressCount": 4091, 
+            "DefaultForAz": true, 
+            "Ipv6CidrBlockAssociationSet": [], 
+            "VpcId": "vpc-7fcdf117", 
+            "State": "available", 
+            "MapPublicIpOnLaunch": true, 
+            "SubnetId": "subnet-3812d774", 
+            "CidrBlock": "172.31.32.0/20", 
+            "AssignIpv6AddressOnCreation": false
+        }
+    ]
+}

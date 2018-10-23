@@ -1,0 +1,509 @@
+{
+    "Reservations": [
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "", 
+                    "StateReason": {
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+                        "Code": "Client.UserInitiatedShutdown"
+                    }, 
+                    "State": {
+                        "Code": 48, 
+                        "Name": "terminated"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-10-22T23:18:27.000Z", 
+                    "ProductCodes": [], 
+                    "StateTransitionReason": "User initiated (2018-10-23 00:46:08 GMT)", 
+                    "InstanceId": "i-009ccbfd5637f6921", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-babc8adf", 
+                    "PrivateDnsName": "", 
+                    "KeyName": "OhioKey", 
+                    "SecurityGroups": [], 
+                    "ClientToken": "", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [], 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "dynaweb1", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-0d1cbf033ec1c35f4", 
+            "Groups": [], 
+            "OwnerId": "463886098039"
+        }, 
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-18-221-139-216.us-east-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-10-23T00:49:39.000Z", 
+                    "PublicIpAddress": "18.221.139.216", 
+                    "PrivateIpAddress": "10.0.1.46", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-0d262d78fc7779c3a", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-062669932f92f793c", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-babc8adf", 
+                    "PrivateDnsName": "ip-10-0-1-46.us-east-2.compute.internal", 
+                    "KeyName": "OhioKey", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                            "GroupId": "sg-0ce1c39cf86e390f5"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-0956316e1c554bfdc", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "02:39:60:68:92:2a", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-0d262d78fc7779c3a", 
+                            "Description": "Primary network interface", 
+                            "NetworkInterfaceId": "eni-0bfdc2cac33324e47", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-0-1-46.us-east-2.compute.internal", 
+                                    "PrivateIpAddress": "10.0.1.46", 
+                                    "Primary": true, 
+                                    "Association": {
+                                        "PublicIp": "18.221.139.216", 
+                                        "PublicDnsName": "ec2-18-221-139-216.us-east-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-10-0-1-46.us-east-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-033be888412453d8f", 
+                                "AttachTime": "2018-10-23T00:49:39.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                                    "GroupId": "sg-0ce1c39cf86e390f5"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "463886098039", 
+                            "PrivateIpAddress": "10.0.1.46", 
+                            "SubnetId": "subnet-0956316e1c554bfdc", 
+                            "Association": {
+                                "PublicIp": "18.221.139.216", 
+                                "PublicDnsName": "ec2-18-221-139-216.us-east-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0ef419451e5318961", 
+                                "AttachTime": "2018-10-23T00:49:39.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAIXJ23SSMEWOHQ6YFK", 
+                        "Arn": "arn:aws:iam::463886098039:instance-profile/Dynacorp-Service-Report"
+                    }, 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "dynaweb1", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-0c8bf1e11f80d33ef", 
+            "Groups": [], 
+            "OwnerId": "463886098039"
+        }, 
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-10-23T00:26:16.000Z", 
+                    "PrivateIpAddress": "10.0.15.4", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-0d262d78fc7779c3a", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-07ce18ae2c736b3ea", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-babc8adf", 
+                    "PrivateDnsName": "ip-10-0-15-4.us-east-2.compute.internal", 
+                    "KeyName": "OhioKey", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dynacorp-Dynaprivate-apps", 
+                            "GroupId": "sg-0da92ab383856602c"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-044d6cadd7c0c1f63", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "0a:6b:84:f0:4d:a4", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-0d262d78fc7779c3a", 
+                            "Description": "Primary network interface", 
+                            "NetworkInterfaceId": "eni-03d0df03080c3dbe1", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-0-15-4.us-east-2.compute.internal", 
+                                    "Primary": true, 
+                                    "PrivateIpAddress": "10.0.15.4"
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-10-0-15-4.us-east-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-002c942a2d8640db6", 
+                                "AttachTime": "2018-10-23T00:26:16.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "dynacorp-Dynaprivate-apps", 
+                                    "GroupId": "sg-0da92ab383856602c"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "463886098039", 
+                            "SubnetId": "subnet-044d6cadd7c0c1f63", 
+                            "PrivateIpAddress": "10.0.15.4"
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2c"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0134ec1eb2c0c7550", 
+                                "AttachTime": "2018-10-23T00:26:16.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAIXJ23SSMEWOHQ6YFK", 
+                        "Arn": "arn:aws:iam::463886098039:instance-profile/Dynacorp-Service-Report"
+                    }, 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "dynafiles1", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-0da575b5c97670a30", 
+            "Groups": [], 
+            "OwnerId": "463886098039"
+        }, 
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-18-188-90-138.us-east-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-10-22T23:20:07.000Z", 
+                    "PublicIpAddress": "18.188.90.138", 
+                    "PrivateIpAddress": "10.0.2.161", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-0d262d78fc7779c3a", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-0162d605e4bf7cbfe", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-babc8adf", 
+                    "PrivateDnsName": "ip-10-0-2-161.us-east-2.compute.internal", 
+                    "KeyName": "OhioKey", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                            "GroupId": "sg-0ce1c39cf86e390f5"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-00efbac2d9191a955", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "06:85:65:00:5a:d4", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-0d262d78fc7779c3a", 
+                            "Description": "Primary network interface", 
+                            "NetworkInterfaceId": "eni-0cc55ae222ca09505", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-0-2-161.us-east-2.compute.internal", 
+                                    "PrivateIpAddress": "10.0.2.161", 
+                                    "Primary": true, 
+                                    "Association": {
+                                        "PublicIp": "18.188.90.138", 
+                                        "PublicDnsName": "ec2-18-188-90-138.us-east-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-10-0-2-161.us-east-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-016da447a05e1d28b", 
+                                "AttachTime": "2018-10-22T23:20:07.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                                    "GroupId": "sg-0ce1c39cf86e390f5"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "463886098039", 
+                            "PrivateIpAddress": "10.0.2.161", 
+                            "SubnetId": "subnet-00efbac2d9191a955", 
+                            "Association": {
+                                "PublicIp": "18.188.90.138", 
+                                "PublicDnsName": "ec2-18-188-90-138.us-east-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2b"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0f7056b830b65a9a4", 
+                                "AttachTime": "2018-10-22T23:20:08.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAIXJ23SSMEWOHQ6YFK", 
+                        "Arn": "arn:aws:iam::463886098039:instance-profile/Dynacorp-Service-Report"
+                    }, 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "dynaweb2", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-065bfd74eebd38e8f", 
+            "Groups": [], 
+            "OwnerId": "463886098039"
+        }, 
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-18-188-227-245.us-east-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 16, 
+                        "Name": "running"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-10-23T00:21:00.000Z", 
+                    "PublicIpAddress": "18.188.227.245", 
+                    "PrivateIpAddress": "10.0.4.147", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-0d262d78fc7779c3a", 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-0d9d04b7d17ac5f40", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-babc8adf", 
+                    "PrivateDnsName": "ip-10-0-4-147.us-east-2.compute.internal", 
+                    "KeyName": "OhioKey", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                            "GroupId": "sg-0ce1c39cf86e390f5"
+                        }
+                    ], 
+                    "ClientToken": "", 
+                    "SubnetId": "subnet-061438832ff8b1bbc", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "0a:40:4a:75:e3:a6", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-0d262d78fc7779c3a", 
+                            "Description": "Primary network interface", 
+                            "NetworkInterfaceId": "eni-03341e366935e780b", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-10-0-4-147.us-east-2.compute.internal", 
+                                    "PrivateIpAddress": "10.0.4.147", 
+                                    "Primary": true, 
+                                    "Association": {
+                                        "PublicIp": "18.188.227.245", 
+                                        "PublicDnsName": "ec2-18-188-227-245.us-east-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-10-0-4-147.us-east-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attached", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-0f970e7b2d1183603", 
+                                "AttachTime": "2018-10-23T00:21:00.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "dynacorp-DynaWebSecurityGroup-JSLBNSLA3K7W", 
+                                    "GroupId": "sg-0ce1c39cf86e390f5"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "463886098039", 
+                            "PrivateIpAddress": "10.0.4.147", 
+                            "SubnetId": "subnet-061438832ff8b1bbc", 
+                            "Association": {
+                                "PublicIp": "18.188.227.245", 
+                                "PublicDnsName": "ec2-18-188-227-245.us-east-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2c"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1", 
+                            "Ebs": {
+                                "Status": "attached", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0cf1f96d91db7b07d", 
+                                "AttachTime": "2018-10-23T00:21:00.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAIXJ23SSMEWOHQ6YFK", 
+                        "Arn": "arn:aws:iam::463886098039:instance-profile/Dynacorp-Service-Report"
+                    }, 
+                    "RootDeviceName": "/dev/sda1", 
+                    "VirtualizationType": "hvm", 
+                    "Tags": [
+                        {
+                            "Value": "dynaweb3", 
+                            "Key": "Name"
+                        }
+                    ], 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-03b6d50d75f1ceb69", 
+            "Groups": [], 
+            "OwnerId": "463886098039"
+        }
+    ]
+}

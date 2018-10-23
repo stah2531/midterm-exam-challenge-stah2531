@@ -1,0 +1,34 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "HealthCheckPort": "80", 
+            "Target": {
+                "Id": "i-0162d605e4bf7cbfe", 
+                "Port": 80
+            }, 
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }, 
+        {
+            "HealthCheckPort": "80", 
+            "Target": {
+                "Id": "i-062669932f92f793c", 
+                "Port": 80
+            }, 
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }, 
+        {
+            "HealthCheckPort": "80", 
+            "Target": {
+                "Id": "i-0d9d04b7d17ac5f40", 
+                "Port": 80
+            }, 
+            "TargetHealth": {
+                "State": "healthy"
+            }
+        }
+    ]
+}

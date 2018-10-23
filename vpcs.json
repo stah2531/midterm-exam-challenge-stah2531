@@ -1,0 +1,38 @@
+{
+    "Vpcs": [
+        {
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "InstanceTenancy": "default", 
+            "Tags": [
+                {
+                    "Value": "arn:aws:cloudformation:us-east-2:463886098039:stack/dynacorp/26bd1840-d64e-11e8-8684-060ae44bf6ec", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "dynacorp", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "dynacorp-vpc", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "CorpVpc", 
+                    "Key": "aws:cloudformation:logical-id"
+                }
+            ], 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-31081959", 
+            "CidrBlock": "10.0.0.0/18", 
+            "IsDefault": false
+        }, 
+        {
+            "VpcId": "vpc-7fcdf117", 
+            "InstanceTenancy": "default", 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-31081959", 
+            "CidrBlock": "172.31.0.0/16", 
+            "IsDefault": true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "LoadBalancers": [
+        {
+            "IpAddressType": "ipv4", 
+            "VpcId": "vpc-0d262d78fc7779c3a", 
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:463886098039:loadbalancer/app/dynac-DynaE-PGSZZ3UB02IH/81e5822185a9fa8b", 
+            "State": {
+                "Code": "active"
+            }, 
+            "DNSName": "dynac-DynaE-PGSZZ3UB02IH-1246572162.us-east-2.elb.amazonaws.com", 
+            "SecurityGroups": [
+                "sg-06d4d0790167b77fa"
+            ], 
+            "LoadBalancerName": "dynac-DynaE-PGSZZ3UB02IH", 
+            "CreatedTime": "2018-10-22T23:00:18.930Z", 
+            "Scheme": "internet-facing", 
+            "Type": "application", 
+            "CanonicalHostedZoneId": "Z3AADJGX6KTTL2", 
+            "AvailabilityZones": [
+                {
+                    "SubnetId": "subnet-00efbac2d9191a955", 
+                    "ZoneName": "us-east-2b"
+                }, 
+                {
+                    "SubnetId": "subnet-061438832ff8b1bbc", 
+                    "ZoneName": "us-east-2c"
+                }, 
+                {
+                    "SubnetId": "subnet-0956316e1c554bfdc", 
+                    "ZoneName": "us-east-2a"
+                }
+            ]
+        }
+    ]
+}
